@@ -1,0 +1,20 @@
+An attribute in HTML gives extra information about an element. 
+It helps define how the element behaves, looks, or what data it uses.
+
+What is an Attribute? (Simple Definition):
+👉 An attribute is a name–value pair 
+written inside an HTML tag that modifies or describes that element.
+
+
+Basic Structure
+<tagname attribute="value">content</tagname>
+
+Example 1: img tag with attributes
+<img src="logo.png" alt="Website Logo" width="150">
+
+Clear Explanation of Each Attribute
+
+Attribute	Meaning
+src	   ->   Specifies the path of the image file
+alt	   ->   Alternative text (shown if image doesn’t load, helps accessibility)
+width  ->   Sets the width of the image
