@@ -1,0 +1,53 @@
+  <!--rowspan and colspan (combing the col/row's)-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Span</title>
+
+        <link rel="icon" href="logo.png">
+
+        <style>
+
+            table{
+                width: 40%;
+                background: rgb(166, 208, 224);
+                text-align: center;  
+            }
+
+            th{
+                background-color: rgb(166, 208, 224);
+            }
+            tr{
+                background-color: antiquewhite;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;"><ins>Demo on row&col span</ins></h1>
+        
+
+        <!--rowspan and colspan combing the col/row's-->
+
+        <table border="" align="center">
+
+            <tr>
+            <th>A</th><th colspan="2">B</th><th>C</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">101</td><td>201</td><td>301</td><td>401</td>
+            </tr>
+            <tr>
+                                        <td>211</td><td>311</td><td rowspan="3">411</td>
+            </tr>
+            <tr>
+                <td>121</td><td>211</td><td>321</td>
+            </tr>
+            <tr>
+                <td>131</td><td>231</td><td>331</td>
+            </tr>
+        </table>
+    </body>
+</html>
