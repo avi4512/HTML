@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+
+        <link rel="icon" href="logo.png">
+
+        <style>
+            div{
+                width: 400px;
+                height: 500px;
+                margin: auto;
+                background: rgb(81, 152, 187);
+                border-radius: 30px 60px;
+                box-shadow: 1px 2px 3px 4px rgb(35, 152, 8);
+                color: rgb(9, 10, 9);
+                padding-left: 20px;
+                padding-top: 2px;
+            }
+            span{
+                color: red;
+                font-size: 20px;
+            }
+
+
+            
+        </style>
+    </head>
+    <body>
+
+    <form id="Form1" action="register.jsp" autocomplete="on">
+        <div>
+            <h1 style="text-align: center;"><ins>Registration Form</ins></h1>
+
+            <label>First Name</label><span>*</span><br>
+            <input type="text" id="firstName" name="fname" required autofocus>
+            <br><br>
+
+            <label>Middle Name</label><br>
+            <input type="text" id="middleName" name="mname">
+            <br><br>
+
+            <label>Last Name</label><span>*</span><br>
+            <input type="text" id="lastName" name="lname" required>
+            <br><br>
+
+
+            <label>MailID</label><span>*</span><br>
+            <input type="text" id="mail" name="mail" required>
+            <br><br>
+
+            <label>Ph.no</label><br>
+            <input type="text" id="phone" name="num" >
+            <br><br>
+
+            <label>Branch</label><span>*</span><br>
+            <input type="text" id="branch" name="dept" required>
+            
+            <button>Submit</button>
+            <br><br>
+        </div>
+    </form>   
+    
+    </body>
+</html>
