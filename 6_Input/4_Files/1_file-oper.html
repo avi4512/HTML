@@ -1,0 +1,33 @@
+<!---->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Files</title>
+
+        <link rel="icon" href="logo.png">
+    </head>
+    <body>
+    
+    <!--for any uploding we have to use method="post"-->
+    <form id="form1" action="upload" method="post" target="_blank" enctype="multipart/form-data">
+        <h1 style="text-align: center;"><ins>Demo on Files</ins></h1>
+
+        <h3>1.To select only one file[any type]</h3>
+        <input type="file">
+
+        <h3>2.To select Multiple file[any type]</h3>
+        <input type="file" multiple>
+
+        <h3>3.To Accept only specifc type file(.pdf, .dox)</h3>
+        <input type="file" accept=".pdf,.dox">
+
+        <h3>4.to Accept all types in images [images/*]</h3>
+        <input type="file" multiple accept="images/*">
+        <!--for audio's [audio/*]-->
+        <br><br>
+
+        <input type="submit" value="Upload">
+    </form>
+
+    </body>
+</html>
