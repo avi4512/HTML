@@ -20,5 +20,15 @@
         <h3>3.To get current time</h3>
         <button onclick="out2.value = new Date()">Time</button>
         <output id="out2"></output>
+
+        <h4>4.Range [default]</h4>
+        <input type="range"><!--min(0) max(100) default on(50)-->
+
+        <h4>5.outpuing the range value</h4>
+        <input type="range" min="101" max="1001" id="r1" value="301" style="width: 300px;"
+        onchange="rangeoutput.value=r1.value">
+        <output id="rangeoutput"></output>
+
+
     </body>
 </html>

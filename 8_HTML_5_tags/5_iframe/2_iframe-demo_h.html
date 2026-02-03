@@ -1,0 +1,59 @@
+<!---->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Application on iframe</title>
+
+        <link rel="icon" href="..\..\logo.png">
+
+
+        <style>
+
+            #menubar{
+                background-color: rgb(63, 65, 65);
+                width: 100%;
+                height: 30px;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                color: aliceblue;
+                display: inline-block;
+                width: 150px;
+                padding-top: 5px;
+            }
+
+            a:hover{
+                color: chartreuse;
+            }
+
+            #data{
+                margin: auto;
+                width: 90%;
+                height: 550px;
+                background-color: aquamarine;
+            }
+
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="menubar">
+            
+            <a href="E:\HTML\3_Attributes\1_style.html" target="mf">Text</a>
+            <a href="E:\HTML\3_Attributes\7_colours.html" target="mf">Colours</a>
+            <a href="E:\HTML\4_Div\6_5_display_grid_2.html"target="mf">Grid</a>
+            <a href="E:\HTML\5_Tables\2_color_table.html"target="mf">Table</a>
+            <a href="E:\HTML\6_Input\1_boxes\2_text_demo.html"target="mf">Registration</a>
+            <a href="E:\HTML\6_Input\2_Buttons\0_demo_buttons.html"target="mf">Project</a>
+        </div><br>
+
+        <div id="data">
+           <iframe name="mf" frameborder="0"></iframe>
+        </div>
+    </body>
+</html>
