@@ -1,0 +1,45 @@
+<!--Drop down box-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drop Down Box</title>
+
+        <link rel="icon" href="..\logo.png">
+    </head>
+    <body>
+
+    <form action="save.go">
+        <h1 style="text-align: center;"><ins>Demo on Drop Down Box</ins></h1>
+        <label>Mode of Training: </label>
+        <select id="sel1" name="Training">
+            <option value="">--None--</option>
+            <option value="Offline" disabled>Offline</option>
+            <option value="Online">Online</option> <!--show's option but we can't select option-->
+            <option value="Weekend">Weekend</option>
+            <option value="Project">Project</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label>Select Course: </label>
+        <select id="sel2" name="Course" multiple size="1">
+            <option value="">--None--</option>
+            <option value="Golang">Golang</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="HTML/CSS">HTML/CSS</option>
+            <option value="Js">JS</option>
+            <option value="React">React</option>
+            <option value="Django">Django</option>
+            <option value="C">C</option>
+            <option value="cpp">cpp</option>
+            <option value="MySQl">MySQl</option>
+            <option value="Csharp">Csharp</option>
+        </select>
+        <br><br>
+
+        <input type="submit" name="sub" value="submit">
+
+    </form>
+        
+    </body>
+</html>
